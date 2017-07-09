@@ -11,6 +11,7 @@ import org.springframework.context.annotation.Bean;
 @SpringBootApplication
 public class Application {
 
+    //SpringApplicationでApplicationContextインスタンスの作成やbeanのロードなどを行う
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
